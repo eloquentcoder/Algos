@@ -1,40 +1,8 @@
 <?php
 
-// III
-// function romanToInt($s)
-// {
-//     // since there are no maps in php we use an associative array to map romans to integers
-//     $romans = [
-//         "I" => 1,
-//         "V" => 5, 
-//         "X" => 10,
-//         "L" => 50,
-//         "C" => 100,
-//         "D" => 500,
-//         "M" => 1000
-//     ];
-
-//     $total = 0;
-
-
-//     for ($i=0; $i < strlen($s); $i++) { 
-//         if ($romans[$s[$i] >= $romans[$s[$i+1]]]) {
-//             $total += $romans[$s[$i]];
-
-//         } else {
-//             $t = $romans[$s[$i + 1]] - $romans[$s[$i]];
-//             $total += $t;
-//             $i++;
-//         }
-//     }
-//     return $total;
-// }
-
-
 function romanToInt($s)
 {
     // since there are no maps in php we use an associative array to map romans to integers
-
     $romans = [
         "I" => 1,
         "V" => 5,

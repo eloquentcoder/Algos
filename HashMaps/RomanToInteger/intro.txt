@@ -35,3 +35,5 @@ Input: s = "MCMXCIV"
 Output: 1994
 Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
   
+
+ HINT: use a map to store the values of the roman literals. Loop over each character and if the current character is less than the next character in the map, substract from set total, if not, add to total.
