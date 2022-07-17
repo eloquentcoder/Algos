@@ -17,6 +17,13 @@ Input: nums = [3,2,4], target = 6
 Output: [1,2]
 
 
+Link to problem
+https://leetcode.com/problems/two-sum/
+
 
 HINT: Use a hashmap as it allows for 0(1) lookup when checking if the difference is in hashmap
  
+
+RESOURCE FOR LEARNING
+https://coderbyte.com/algorithm/two-sum-problem
+https://www.youtube.com/watch?v=KLlXCFG5TnA&t=36s 
