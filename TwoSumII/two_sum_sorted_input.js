@@ -14,10 +14,10 @@ function twoSumSortedInput(nums, target) {
         if (sum === target) return [left+1, right+1] 
 
         // target is greater than sum then we decrease the right pointer to get a smaller value
-        if(sum < target) right--;
+        if(target > sum) right--;
 
          // if target is less than sum then we increase the left pointer to get a bigger value
-        if(sum > target) left++;
+        if(target < sum) left++;
     }
 }
 
