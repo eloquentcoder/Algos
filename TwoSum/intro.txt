@@ -22,7 +22,9 @@ https://leetcode.com/problems/two-sum/
 
 
 HINT: Use a hashmap as it allows for 0(1) lookup when checking if the difference is in hashmap
- 
+
+TIME_COMPLEXITY: 0(n) where n is the number of elememts in the nums array
+SPACE_COMPLEXITY:  0(1)
 
 RESOURCE FOR LEARNING
 https://coderbyte.com/algorithm/two-sum-problem
