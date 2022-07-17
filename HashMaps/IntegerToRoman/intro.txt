@@ -31,4 +31,4 @@ Output: "LVIII"
 Explanation: L = 50, V = 5, III = 3.
 
 
-HINT: Use an array to store key value pairs of each roman numeral with its number representation including special cases like IV, IX, CD and so on. Loop over each the array and do a number division and use the remainder to build your numeral at each step
+HINT: Use a 2D array to store corresponding values of roman numerals and their integer values. 

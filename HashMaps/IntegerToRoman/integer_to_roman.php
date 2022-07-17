@@ -2,7 +2,8 @@
 
 function integer_to_roman($num)
 {
-    $romanNumeral = [
+    // store roman numerals with their corresponding as well as their associated integers.
+     $romanNumeral = [
         ["I", 1],
         ["IV", 4],
         ["V", 5],
@@ -18,16 +19,23 @@ function integer_to_roman($num)
         ["M", 1000]
     ];
 
+    // build the resulting string
     $result = "";
 
+    // loop over every element in the romanNumeral array in reversed form
     for ($i = count($romanNumeral) - 1; $i >= 0; $i--) {
+        // do an integer division on the integer and the currently indexed numeral value and save the value to a variable
         $mod = intdiv($num, $romanNumeral[$i][1]);
 
+        // if the value of the integer division is greater than 0, then add the corresponding roman numeral to the resulting string
         if ($mod > 0) {
             $result .= str_repeat($romanNumeral[$i][0], $mod);
+            // update the value of the integer with the mod of the integer itself and the currently indexed numeral value
             $num = $num % $romanNumeral[$i][1];
         }
     }
+
+    // return resulting string
     return $result;
 }
 
