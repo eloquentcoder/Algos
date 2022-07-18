@@ -1,8 +1,9 @@
 
 
 function integerToRoman(num) {
+
     // store roman numerals with their corresponding as well as their associated integers.
-     romanNumeral = [
+    romanNumeral = [
         ["I", 1],
         ["IV", 4],
         ["V", 5],
@@ -18,21 +19,28 @@ function integerToRoman(num) {
         ["M", 1000]
     ];
 
+    // build the resulting string
     let result = "";
 
+    // loop over every element in the romanNumeral array in reversed form
+
     for (let i = romanNumeral.length - 1; i >= 0; i--) {
+        // do an integer division on the integer and the currently indexed numeral value and save the value to a variable
+
         let div_result = Math.floor(num / romanNumeral[i][1]);
-        
+
+        // if the value of the integer division is greater than 0, then add the corresponding roman numeral to the resulting string
 
         if (div_result > 0) {
             for (let j = 0; j < div_result; j++) {
+                // update the value of the integer with the mod of the integer itself and the currently indexed numeral value
                 result += romanNumeral[i][0];
             }
             num = num % romanNumeral[i][1];
-
         }
     }
 
+    // return resulting string
     return result;
 }
 
