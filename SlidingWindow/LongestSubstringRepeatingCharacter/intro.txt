@@ -1,0 +1,26 @@
+Given a string s, find the length of the longest substring without repeating characters.
+
+Example 1:
+
+Input: s = "abcabcbb"
+Output: 3
+Explanation: The answer is "abc", with the length of 3.
+Example 2:
+
+Input: s = "bbbbb"
+Output: 1
+Explanation: The answer is "b", with the length of 1.
+
+
+Link to problem
+https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+HINT: Use two pointers to move move through the string and use an appropriate data structure to get duplicate. Most sliding window patterns work well with sets
+
+TIME_COMPLEXITY: 0(n) where n is the number of characters in the string
+SPACE_COMPLEXITY:  0(n) where n is the number of characters in the string
+
+
+RESOURCE FOR LEARNING
+https://www.interviewbit.com/blog/longest-substring-without-repeating-characters/
+https://www.youtube.com/watch?v=wiGpQwVHdE0
