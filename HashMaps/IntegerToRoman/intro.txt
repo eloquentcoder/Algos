@@ -30,5 +30,18 @@ Input: num = 58
 Output: "LVIII"
 Explanation: L = 50, V = 5, III = 3.
 
+Link to problem
+https://leetcode.com/problems/roman-to-integer/
 
 HINT: Use a 2D array to store corresponding values of roman numerals and their integer values. 
+
+HINT: use a map to store the values of the roman literals. Loop over each character and if the current character is less than the next character in the map, substract from set total, if not, add to total.
+
+
+TIME_COMPLEXITY: 0(n) where n is the number of digits for the integer input
+SPACE_COMPLEXITY:  0(1) space complexity
+
+
+RESOURCE FOR LEARNING
+https://www.youtube.com/watch?v=ohBNdSJyLh8
+https://www.interviewkickstart.com/problems/integer-to-roman
