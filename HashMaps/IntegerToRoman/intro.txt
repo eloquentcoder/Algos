@@ -1,4 +1,4 @@
-Rcloman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
 Symbol       Value
 I             1
@@ -37,10 +37,8 @@ HINT: Use a 2D array to store corresponding values of roman numerals and their i
 
 HINT: use a map to store the values of the roman literals. Loop over each character and if the current character is less than the next character in the map, substract from set total, if not, add to total.
 
-
 TIME_COMPLEXITY: 0(n) where n is the number of digits for the integer input
 SPACE_COMPLEXITY:  0(1) space complexity
-
 
 RESOURCE FOR LEARNING
 https://www.youtube.com/watch?v=ohBNdSJyLh8
