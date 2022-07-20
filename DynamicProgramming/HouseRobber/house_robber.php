@@ -27,4 +27,4 @@ function rob(array $nums)
 }
 
 
-print(rob([2,7,9,3,1]));
+print(rob([0, 0, 0]));
