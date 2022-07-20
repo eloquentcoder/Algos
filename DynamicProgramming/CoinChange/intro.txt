@@ -14,6 +14,7 @@ Output: 9
 
 Link to problem
 https://leetcode.com/problems/coin-change/
+
 HINT: This can be best solved using a bottoms up dynamic programming approach where we can compute the lowest value then solve the subsequent value
 
 TIME_COMPLEXITY: 0(a * c) where a is the amount and c is the number of coins
@@ -21,5 +22,4 @@ SPACE_COMPLEXITY:  0(a) where a is the amount
 
 
 RESOURCE FOR LEARNING
-https://medium.com/nerd-for-tech/day-6-longest-consecutive-sequence-bc540f176dc2
 https://www.youtube.com/watch?v=1R0_7HqNaW0
