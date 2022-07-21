@@ -4,6 +4,7 @@ If target is not found in the array, return [-1, -1].
 
 You must write an algorithm with O(log n) runtime complexity.
 
+HINT: Since the question insists we use O(log n), we should do a binary search.
 
 Link to problem
 https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
