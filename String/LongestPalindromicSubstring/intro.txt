@@ -1,0 +1,25 @@
+Given a string s, return the longest palindromic substring in s.
+
+Example 1:
+
+Input: s = "babad"
+Output: "bab"
+Explanation: "aba" is also a valid answer.
+Example 2:
+
+Input: s = "cbbd"
+Output: "bb"
+
+
+Link to problem
+https://leetcode.com/problems/longest-palindromic-substring/
+
+HINT: There are quite a number of ways to approach this problem. You could expand around the center or use a dynamic programming(this takes 0(n**2) space complexity though) ways
+
+TIME-COMPLEXITY: 0(n**2) where n is the number of characters in the string Input
+SPACE-COMPLEXITY: 0(1)
+
+RESOURCE FOR LEARNING
+https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
+https://www.youtube.com/watch?v=XYQecbcd6_c
+

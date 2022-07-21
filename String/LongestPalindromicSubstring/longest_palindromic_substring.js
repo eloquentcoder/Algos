@@ -1,0 +1,6 @@
+
+
+function longestPalindromicSubstring(s) {
+    resString = "";
+    
+}
