@@ -1,0 +1,32 @@
+Given an integer x, return true if x is palindrome integer.
+
+An integer is a palindrome when it reads the same backward as forward.
+
+For example, 121 is a palindrome while 123 is not.
+ 
+
+Example 1:
+
+Input: x = 121
+Output: true
+Explanation: 121 reads as 121 from left to right and from right to left.
+Example 2:
+
+Input: x = -121
+Output: false
+Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+Example 3:
+
+Input: x = 10
+Output: false
+Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
+
+Link to problem
+https://leetcode.com/problems/palindrome-number/
+
+HINT: You are most likely going to be told not to convert to a string or an array or list. You can use some maths operations to get each digit 
+from the beginning and the end to make this comparison.
+
+RESOURCE FOR LEARNING
+https://www.geeksforgeeks.org/check-if-a-number-is-palindrome/
+https://www.geeksforgeeks.org/check-if-a-number-is-palindrome/
