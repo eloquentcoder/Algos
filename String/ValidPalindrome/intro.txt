@@ -21,3 +21,17 @@ Output: true
 Explanation: s is an empty string "" after removing non-alphanumeric characters.
 Since an empty string reads the same forward and backward, it is a palindrome.
  
+
+
+Link to problem
+https://leetcode.com/problems/valid-palindrome/
+
+
+HINT: Use two pointers to compare only alphanumeric characters and if each is equal when both pointers meet at the middle, the string is a palindrome 
+
+TIME_COMPLEXITY: 0(n) where n is the number of characters in the input string
+SPACE_COMPLEXITY: 0(1)
+
+RESOURCE FOR LEARNING
+https://www.youtube.com/watch?v=jJXJ16kPFWg
+
