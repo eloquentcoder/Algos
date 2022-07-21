@@ -3,7 +3,7 @@
 
 function boatsToSavePeople(array $people, int $limit): int {
     // sort the people array to get array of people in ascending order. 
-    //This will allow for our sliding window to compare the largest and smallest weight
+    // This will allow for our sliding window to compare the largest and smallest weight
     // and see if we can add both of them inside the boat
     sort($people);
     
