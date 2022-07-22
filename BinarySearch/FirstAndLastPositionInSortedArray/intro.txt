@@ -4,6 +4,8 @@ If target is not found in the array, return [-1, -1].
 
 You must write an algorithm with O(log n) runtime complexity.
 
+DIFFICULTY LEVEL: Medium
+
 HINT: Since the question insists we use O(log n), we should do a binary search.
 
 Link to problem
