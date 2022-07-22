@@ -1,0 +1,12 @@
+There are certain terminologies you need to learn when dealing with binary trees. A binary tree is a tree in which every node has at most two children.
+
+A Node is a point in a binary tree that has data. 
+
+A node with not parent is called a root. In a binary tree there can only be one root node.
+
+A Node with no children is called a leaf node.
+
+A  tree is a binary tree if it has one root, only at most two children per node and one path only from parent to children.
+
+To learn more about Binary Trees check this excellent course on Youtube below
+https://www.youtube.com/watch?v=fAAZixBzIAI&t=115s
