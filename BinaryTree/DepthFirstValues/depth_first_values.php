@@ -54,7 +54,8 @@ function depthFirstValuesRecursive(?Node $root)
     $leftValues = depthFirstValuesRecursive($root->left);
     $rightValues = depthFirstValuesRecursive($root->right);
 
-    // unpack the values of the current value, the left values and the right values into an array and return it
+    //  Using the spread operator, merge the values of the current value the left values and the right values into an array and return it. 
+    // You can read more on the spread operator here https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
     return [$root->value, ...$leftValues, ...$rightValues];
 }
 
