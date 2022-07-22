@@ -24,10 +24,12 @@ function inorderTraversal($root)
     $current = $root;
 
     while (count($stack) > 0 || $current)  {
+        
         while ($current) {
             array_push($stack, $current);
             $current = $current->left;
         }
+
         $current = array_pop($stack);
         array_push($result, $current->value);
         print($current->value."\n");

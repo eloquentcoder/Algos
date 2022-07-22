@@ -13,6 +13,7 @@ class Node {
 function inorderTraversal(root) {
     let result = [];
     let stack = [];
+    
     let current = root;
 
     while (current || stack.length > 0) {

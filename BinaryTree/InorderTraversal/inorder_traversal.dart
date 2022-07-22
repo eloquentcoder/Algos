@@ -1,5 +1,4 @@
 void main(List<String> args) {
-  // inorderTraversal(root)
 }
 
 // this is a node class used to represent a node in a binary tree.
