@@ -1,5 +1,7 @@
 Given a string s, return the longest palindromic substring in s.
 
+DIFFICULTY LEVEL: Medium
+
 Example 1:
 
 Input: s = "babad"
