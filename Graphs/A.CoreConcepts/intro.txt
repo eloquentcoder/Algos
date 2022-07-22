@@ -1,0 +1,10 @@
+A graph is a collection of nodes and edges where nodes represent a data and edges represent a connection between two nodes. An edge might be in one direction or two directions.
+
+A graph can be used to illustrate relationships. An example is a node might represent a city and the edges might represent road networks for a city.
+
+A node can have neighbouring nodes based on the directions of the edges.
+
+An adjacency list can be used to represent a graph. For most algorithms you will have to visualize your graph as an adjacency list. An adjacency list can be a hashmap or any data structure that allows for 0(1) time constant time lookup. 
+
+RESOURCE FOR LEARNING
+https://www.youtube.com/watch?v=tWVWeAqZ0WU&t=1252s
