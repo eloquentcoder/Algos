@@ -31,9 +31,9 @@ function depthFirstValuesIterative(root) {
     var stack = [root];
 
     // while the stack is not empty traverse the tree
-    while (stack.isNotEmpty) {
+    while (stack.length > 0) {
         // remove the last top element from the stack and push it into the result array
-        var current = stack.removeLast();
+        var current = stack.pop();
 
         // if the left and right children are not empty, push them to the top of the stack
         if (current.left != null) stack.add(current.left);
