@@ -5,6 +5,8 @@ provided the sum of the weight of those people is at most limit.
 
 Return the minimum number of boats to carry every given person.
 
+DIFFICULTY LEVEL: Medium
+
 Example 1:
 
 Input: people = [1,2], limit = 3

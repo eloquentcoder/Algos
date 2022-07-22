@@ -1,5 +1,7 @@
 Given a string s, find the length of the longest substring without repeating characters.
 
+DIFFICULTY LEVEL: Medium
+
 Example 1:
 
 Input: s = "abcabcbb"
