@@ -1,0 +1,14 @@
+A linkedlist is a linear data structure that consists of nodes and links to other nodes in a linear format.
+Example of a linkedlist
+
+
+A -> B -> C -> D
+
+A node is an object that contains data of any kind be it string, numbers characters or even other objects.
+
+SOME TERMINOLOGIES
+1. The head of a linkedlist is the first node in a linked list.
+2. The tail of a linkedlist is the last node in a linked list.
+3. The node after a node is called the next node.
+4. There are two types of linkedlist, a singly linkedlist which is a one way linkedlist in which a node can only point to its next
+and a doubly linkedlist with pointers to a next node and a previous node.
