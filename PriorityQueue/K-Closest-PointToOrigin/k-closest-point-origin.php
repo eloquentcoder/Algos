@@ -11,12 +11,14 @@ function closestToOrigin(array $points, int $k)
         $heap->insert([$dist, $points[$i][0], $points[$i][1]]);
     }
 
+
     for ($i=0; $i < $k; $i++) { 
         $current = $heap->extract();
-        print_r($current);
+        [$dist, $x, $y] = $current;
+        array_push($result, [$x, $y]);
     }
 
-    // return $result;
+    return $result;
 }
 
 print_r(closestToOrigin([[1,3],[-2,2]], 1));
