@@ -5,6 +5,7 @@ function closestToOrigin(array $points, int $k)
 {
     $result = [];
     $heap = new \SplMinHeap();
+    
     for ($i=0; $i < count($points); $i++) { 
         
         $dist = ($points[$i][0] ** 2) + ($points[$i][1] ** 2);
