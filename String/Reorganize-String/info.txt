@@ -1,0 +1,22 @@
+Given a string s, rearrange the characters of s so that any two adjacent characters are not the same.
+
+Return any possible rearrangement of s or return "" if not possible.
+
+ 
+
+Example 1:
+
+Input: s = "aab"
+Output: "aba"
+Example 2:
+
+Input: s = "aaab"
+Output: ""
+
+Link to problem
+https://leetcode.com/problems/reorganize-string/
+
+HINT: We use a hashmap to keep track of all occurrences of a particular character in a string and then use a max heap to populate the result array based on the frequently most occuring character downwards
+
+RESOURCE FOR LEARNING
+https://www.youtube.com/watch?v=zaM_GLLvysw
