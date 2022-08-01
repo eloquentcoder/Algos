@@ -1,13 +1,9 @@
 <?php
 
 
-// the idea behind this is to first sort the 
-// intervals so that comparing intervals will be easier
-// Then we initialize an output array that we would 
-// return at the end and then
 function merge($intervals) {
     // first sort the
-// intervals so that comparing intervals will be easier
+    // intervals so that comparing intervals will be easier
     sort($intervals);
     
     // initialize an output array that we would 
