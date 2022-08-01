@@ -17,7 +17,7 @@ function eraseOverlapIntervals(intervals) {
      // we set the previous end of the current end we are strutinizing to the first interval in the array
     let prevEnd = intervals[0][1];
 
-        // starting from the second interval, we have to loop through the whole array
+    // starting from the second interval, we have to loop through the whole array
     for (let i = 1; i < intervals.length; i++) {
          // we use array destructuring to get the start end value of an interval
         const [start, end] = intervals[i];
