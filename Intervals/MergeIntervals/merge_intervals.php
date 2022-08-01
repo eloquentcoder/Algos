@@ -42,5 +42,6 @@ function merge($intervals) {
     }
     // return the output array
     return $output;
-    
 }
+
+print_r(merge([[1,4],[4,5]]));
