@@ -8,7 +8,7 @@ function islandCount(array $graph)
     // use a visited array to store if a node has been visited
     $visited = [];
 
-    for ($r=0; $r < count($graph); $r++) { 
+    for ($r = 0; $r < count($graph); $r++) { 
         for ($c=0; $c < count($graph[0]); $c++) { 
             if (explore($graph, $r, $c, $visited) == true) {
                 $count += 1;
@@ -26,7 +26,7 @@ function explore($graph, $r, $c, $visited) {
 
     if (!$rowInbounds || !$colInbounds) return false;
 
-    if ($graph[$r][$c] == '0') return false; 
+    if ($graph[$r][$c] === '0') return false; 
 
     $currPos = $r.".".$c;
     if ($visited[$currPos]) return false;
@@ -36,7 +36,14 @@ function explore($graph, $r, $c, $visited) {
     explore($graph, $r + 1, $c, $visited);
     explore($graph, $r, $c - 1, $visited);
     explore($graph, $r, $c + 1, $visited);
-
     return true;
-
 }
+
+$grid = [
+    ["1","1","0","0","0"],
+    ["1","1","0","0","0"],
+    ["0","0","1","0","0"],
+    ["0","0","0","1","1"]
+];
+
+print(islandCount($grid));
