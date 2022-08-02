@@ -1,5 +1,14 @@
 import 'dart:math';
 
+void main(List<String> args) {
+  eraseOverlapIntervals([
+    [1, 2],
+    [2, 3],
+    [3, 4],
+    [1, 3]
+  ]);
+}
+
 // the overall idea behind this problem is to go over the intervals and compare the
 // starting and ending points of each interval after it has been sorted and check for
 // the following, if the current interval's start is greater than or equal to the previous interval's end, it means
