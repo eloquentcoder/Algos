@@ -25,17 +25,20 @@ function integerToRoman(num) {
     // loop over every element in the romanNumeral array in reversed form
 
     for (let i = romanNumeral.length - 1; i >= 0; i--) {
-        // do an integer division on the integer and the currently indexed numeral value and save the value to a variable
+        // do an integer division on the integer and the currently indexed numeral value 
+        // and save the value to a variable
 
         let div_result = Math.floor(num / romanNumeral[i][1]);
 
-        // if the value of the integer division is greater than 0, then add the corresponding roman numeral to the resulting string
+        // if the value of the integer division is greater than 0, 
+        // then add the corresponding roman numeral to the resulting string
+         // the resulting div number of times
 
         if (div_result > 0) {
             for (let j = 0; j < div_result; j++) {
-                // update the value of the integer with the mod of the integer itself and the currently indexed numeral value
                 result += romanNumeral[i][0];
             }
+            // update the value of the integer with the div of the integer itself and the currently indexed numeral value
             num = num % romanNumeral[i][1];
         }
     }

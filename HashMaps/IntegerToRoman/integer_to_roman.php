@@ -28,6 +28,7 @@ function integer_to_roman($num)
         $div = intdiv($num, $romanNumeral[$i][1]);
 
         // if the value of the integer division is greater than 0, then add the corresponding roman numeral to the resulting string
+        // the resulting div number of times
         if ($div > 0) {
             $result .= str_repeat($romanNumeral[$i][0], $div);
             // update the value of the integer with the div of the integer itself and the currently indexed numeral value
