@@ -1,5 +1,4 @@
-void main(List<String> args) {
-}
+void main(List<String> args) {}
 
 // this is a node class used to represent a node in a binary tree.
 class Node {

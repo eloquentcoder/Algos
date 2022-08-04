@@ -32,7 +32,6 @@ function inorderTraversal($root)
 
         $current = array_pop($stack);
         array_push($result, $current->value);
-        print($current->value."\n");
         $current = $current->right;
     }
 
