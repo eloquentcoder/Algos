@@ -16,4 +16,4 @@ function maximumSubarray(array $nums)
 
 }
 
-print(maximumSubarray([-2,1,-3,4,-1,2,1,-5,4]));
+print(maximumSubarray( [-3, 1, -8, 12, 0, -3, 5, -9, 4]));
